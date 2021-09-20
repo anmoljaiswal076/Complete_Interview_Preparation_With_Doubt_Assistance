@@ -12,8 +12,6 @@ using namespace std;
 
 //Complete this function
 int sumOfMaxandMin(int arr[],int n)
-{
-    int sumOfMaxandMin(int arr[],int n)
     {
         int maxx=INT_MIN;
         int minn=INT_MAX;
@@ -32,7 +30,6 @@ int sumOfMaxandMin(int arr[],int n)
         }     
         return maxx+minn;
     }
-}
 
 
 // { Driver Code Starts.

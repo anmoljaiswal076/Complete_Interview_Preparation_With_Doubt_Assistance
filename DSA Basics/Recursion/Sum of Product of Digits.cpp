@@ -10,9 +10,6 @@ using namespace std;
 
 //Complete this function using recursion
 int sumOfProductOfDigits(int n1, int n2)
-{
-    
-    int sumOfProductOfDigits(int n1, int n2)
     {
         if(n1==0 || n2==0)
         {
@@ -21,7 +18,6 @@ int sumOfProductOfDigits(int n1, int n2)
     
         return (n1%10)*(n2%10)+sumOfProductOfDigits(n1/10,n2/10);
     }
-}
 
 
 int main() {
